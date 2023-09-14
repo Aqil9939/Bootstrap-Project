@@ -1,0 +1,97 @@
+:root {
+    --mavi: #6bc1f1
+}
+
+header {
+    background: url('img/headerbg.webp') 57%/cover;
+}
+
+.bg-body-transp {
+    background-color: #ffffffcc
+}
+
+.bg-boz {
+    background-color: #f1f1f1
+}
+
+.bg-mavi {
+    background-color: var(--mavi)
+}
+
+.text-mavi {
+    color: var(--mavi)
+}
+
+.vh-50 {
+    height: 50vh;
+}
+
+#hekimbaba {
+    max-width: 450px;
+}
+
+#f1 {
+    background: url('img/feature1.jpg') center/cover
+}
+
+#f2 {
+    background: url('img/feature2.jpg') center/cover
+}
+
+.foto__pagination {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 30px !important;
+    height: 30px !important;
+    background: url(./photo2.jpg) no-repeat center/cover;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+    border: none;
+}
+
+.container1 {
+    background-color: #072035;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container1 {
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    gap: 20px;
+    height: 30vh;
+}
+
+.contact {
+    text-align: center;
+    width: 50vh;
+    margin-left: 500px;
+}
+
+.contact1 {
+    text-align: center;
+}
+
+.button {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 50px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Massage {
+    width: 380px;
+    height: 200px;
+}
